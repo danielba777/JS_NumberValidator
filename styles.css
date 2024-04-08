@@ -1,0 +1,113 @@
+*{
+    background-color: #3B3B4E;
+    color: white;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .logo-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+  }
+  
+  .logo{
+    width: 300px;
+  }
+  
+  main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heading{
+    font-size: 35px;
+  }
+  
+  .phone-container{
+    height: 460px;
+    width: 250px;
+    background-color: black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .phone-cam{
+    background-color: #DFDFE2;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .phone-screen{
+    height: 350px;
+    width: 220px;
+    background-color: #DFDFE2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .btn{
+    width: 80px;
+    font-size: 18px;
+    background-color: white;
+    background-image: linear-gradient(#ffffff,#928d86);
+    border-color: #ffffff;
+    color: black;
+  }
+  
+  .phone-buttons{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+  #input-label{
+    background-color: #DFDFE2;
+    color: black;
+    margin-top: 20px;
+  }
+  
+  #user-input{
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    width: 190px;
+    height: 42px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  #results-div{
+    width: 100%;
+    height: 250px;
+    font-size: 19px;
+    text-align: center;
+    background-color: #DFDFE2;
+    overflow-y: auto;
+  }
+  
+  #results-div p{
+    width: 100%;
+    background-color: #DFDFE2;
+    color: black;
+  }
+  
+  .valid{
+    color: green !important;
+  }
+  
+  .invalid{
+    color: red !important;
+  }
